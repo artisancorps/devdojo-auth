@@ -5,6 +5,11 @@
             icon="house"
             text="Home"
         ></x-auth::setup.sidebar-link-item>
+        <x-auth::setup.sidebar-link-item
+            pageLink="auth/waitlist"
+            icon="list"
+            text="Waitlist"
+        ></x-auth::setup.sidebar-link-item>
         <li>
             <div class="px-1 text-xs font-semibold leading-6 text-gray-400">Configure</div>
             <ul role="list" class="mt-2 space-y-1">
@@ -13,7 +18,7 @@
                     icon="paint-bucket"
                     text="Appearance"
                 ></x-auth::setup.sidebar-link-item>
-                
+
                 <x-auth::setup.sidebar-link-item
                     pageLink="auth/setup/providers"
                     icon="user-circle-plus"
@@ -31,7 +36,7 @@
                 ></x-auth::setup.sidebar-link-item>
             </ul>
         </li>
-        
+
         <li>
             <div class="px-1 text-xs font-semibold leading-6 text-gray-400">Resources</div>
             <ul role="list" class="mt-2 space-y-1">
